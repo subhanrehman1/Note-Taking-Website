@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.right-items{
+    float: right;
+    background-color: rgb(5, 2, 46);
+    padding: 1rem 1rem;
+    margin: 0.6rem 0.6rem;
+    color: white;
+    height: 50%;
+}
+.left-items{
+    float: left; 
+    padding: 1rem 1rem;
+    color: white;
+    font-size: 30px;
+}
+#navbar{
+    background-color: rgb(5, 2, 46);
+    height: 11vh;
+    text-align: center;
+}
+
+#search-button{
+    color: green;
+    border: 1px solid green;
+    border-radius: 10px;
+    height: 0.1em;
+    margin-top: 1%;
+    display: inline-flex;
+    align-items: center;
+}
+#search-input{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    height: 0.1em;
+    margin-top: 1%;
+}
+ #navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 8px;
+}
+#navbar a:hover{
+    background-color: black;
+}
+#main-container{
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+#container{
+    margin: 10% 20%;
+}
+.main-elem{
+    width: 95%;
+    margin:auto;
+    border-radius: 10px;
+    height: 30px;
+    padding: 1px 10px;
+}
+#add-button{
+    margin: 1% 2%;
+    background-color: rgb(5, 2, 46);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+#textarea{
+    height: 100px;
+    padding: 2px 10px;
+}
+.main-label{
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+h1{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+hr{
+    border: 1px solid rgba(0, 0, 0, 0.116);;
+}
+.note{
+    width: 10rem;
+    height: 6rem;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+    margin-right: auto;
+    word-wrap: break-word;
+}
+.note-button{
+    margin: 1% 2%;
+    background-color: rgb(5, 2, 46);
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+#note-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .content {
+    padding: 16px;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+#note-added-div{
+    background-color: green;
+    display: none;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 10px ;
+    font-size: xx-large;
+}
+#note-delete-div{
+    background-color: red;
+    display: none;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top: 10px ;
+    font-size: xx-large;
+}

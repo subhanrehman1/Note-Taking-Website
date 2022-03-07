@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans&family=Roboto+Mono:wght@100&family=Roboto:wght@100;400&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+            <div id="navbar">
+                <p class="left-items" > Magic Notes</p>
+                <a class="left-items" href="">Home</a>
+                <form action="">
+                    <!-- <button id="search-button" class="right-items">Search</button> -->
+                    <input id="search-input" class="right-items" type="text" placeholder="Search...">
+                </form>
+            </div>
+    </header>
+    <div id="container">
+        <h1>Welcome to Magic Notes</h1>
+        <div id="note-delete-div">
+            <p class="pop-up">Note deleted successfully </p>
+        </div>
+        <div id="note-added-div">
+            <p class="pop-up">Note Added successfully </p>
+        </div>
+        <div id="main-container">
+                <h3 class="main-label" >Add Title</h3>
+                <input type="text" name="" id="add-title" class="main-elem">
+                <h3 class="main-label">Add a Note</h3>
+                <textarea name="" id="add-note" cols="30" rows="10" class="main-elem"></textarea>
+                <button id="add-button">Add Note</button>
+        </div>
+        <div>
+            <hr>
+            <h1>Your Notes</h1>
+            <hr>
+            <!-- <div>
+                <p>Nothing to show here, use Add section above to add your notes here</p>
+            </div> -->
+            <div id="note-container">
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
